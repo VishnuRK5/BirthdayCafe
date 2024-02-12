@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.go {
+  width: 50%;
+}
+
+.selected-food {
+  border-top-right-radius: 10px;
+  border-top: 2px solid #8b56ff;
+  border-right: 2px solid #8b56ff;
+}
+.selected-games {
+  border-top-left-radius: 10px;
+  border-top: 2px solid #8b56ff;
+  border-left: 2px solid #8b56ff;
+}
+.not-sel {
+  border-bottom: 2px solid #8b56ff;
+  border-bottom-right-radius: 10px;
+}
+.linear {
+  background: linear-gradient(to right, #ff6b08, #8b56ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bold-font {
+  font-weight: 700 !important;
+}
